@@ -1,5 +1,5 @@
 # example.yaml
-name: minz/nodejs_main
+name: jerry/nodejs_main
 description: |
   Template for a NodeJS main job. Installs the NPM module dependencies and executes
   the test target.
