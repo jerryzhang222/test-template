@@ -1,15 +1,12 @@
 # example.yaml
-name: jerry/nodejs_main
-version: 0.0.1
+name: jerry/demotesttemplate
+version: 0.0.0
 description: |
-  Template for a NodeJS main job. Installs the NPM module dependencies and executes
+  Fake template for a NodeJS main job. Installs the NPM module dependencies and executes
   the test target.
 maintainer: mia.cheung2@gmail.com
 config:
   image: node:6
-  steps:
-    - install: npm install
-    - test: npm test
   environment:
     NODE_ENV: production
   secrets:
