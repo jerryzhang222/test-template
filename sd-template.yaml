@@ -1,5 +1,6 @@
 # example.yaml
 name: jerry/nodejs_main
+version: 0.0.1
 description: |
   Template for a NodeJS main job. Installs the NPM module dependencies and executes
   the test target.
